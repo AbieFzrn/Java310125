@@ -10,7 +10,7 @@ public class koneksi {
     public static Connection getConnection() throws SQLException {
         if (koneksi == null || koneksi.isClosed()) {
             try {
-                String url = "jdbc:mariadb://localhost:3306/pmr_visual"; // ganti sesuai DB kamu
+                String url = "jdbc:mariadb://localhost:3306/example"; // ganti sesuai DB kamu
                 String user = "root";
                 String password = "";
 
